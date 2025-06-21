@@ -169,3 +169,36 @@ main h1:hover::before {
 .logo {
     width: 40px;
 }
+
+/* Tablet: screens smaller than 992px */
+@media (max-width: 991.98px) {
+    main h1 {
+        font-size: 36px;
+    }
+    .box-content {
+        width: 90%;
+    }
+    .logo {
+        width: 32px;
+    }
+}
+
+/* Mobile: screens smaller than 576px */
+@media (max-width: 575.98px) {
+    main h1 {
+        font-size: 28px;
+    }
+    .box-content {
+        width: 98%;
+        padding: 10px;
+    }
+    .bookmark-body h2 {
+        font-size: 18px;
+    }
+    .rules li {
+        font-size: 14px;
+    }
+    .logo {
+        width: 24px;
+    }
+}
